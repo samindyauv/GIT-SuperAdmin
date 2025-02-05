@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GIT - Super Admin">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"/>
+    </listeners>
+    <test name="Sprint-01">
+        <classes>
+            <class name="superAdmin.login.positiveLogin"/>
+            <class name="superAdmin.login.negativeLogin"/>
+            <class name="superAdmin.roleManagement.positive.addRole"/>
+            <class name="superAdmin.roleManagement.negative.addRole"/>
+            <class name="superAdmin.roleManagement.positive.searchRole"/>
+            <class name="superAdmin.roleManagement.positive.roleFilter"/>
+            <class name="superAdmin.packages.positive.positiveAddAddonGroup"/>
+            <class name="superAdmin.packages.positive.positiveAddAddon"/>
+            <class name="superAdmin.packages.negative.negativeAddAddonGroup"/>
+            <class name="superAdmin.packages.negative.negativeAddAddon"/>
+            <class name="superAdmin.userManagement.positive.addUser"/>
+            <class name="superAdmin.userManagement.negative.addUser"/>
+
+        </classes>
+    </test>
+</suite>
+
+<!--when running automation must need these fields
+duplicate role name = Admin
+duplicate email = samindya@gmail.com
+duplicate addon group name = Annual Package
+duplicate addon name = IOS
+-->

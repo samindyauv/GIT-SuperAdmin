@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="408901cc-1626-4d60-9604-7bc1467f8cc5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "samindyauv"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/samindyauv/GIT-SuperAdmin.git",
+    "accountId": "374fe2ff-025b-4aee-bd7e-2964072f8fb0"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/utils/webSteps.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2reI2ItZigPnG7uLrTq1krK0A8d" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.D:/Samindya/GIT/GIT - My Work/Selenium/superAdminPortal/TestNGDataProvider.xml.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.D:/Samindya/GIT/GIT - My Work/Selenium/superAdminPortal/happyPath.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole.addActivatedRole.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole.addDeactivatedRole.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole.addRoleWithEmptyName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole.addRoleWithNoPermission.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole.checkForDuplicateRoleName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addRole.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addUser (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addUser (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addUser (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addUser (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addUser (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addUser.addGroupWithInvalidData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addUser.addUserWithInvalidData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.addUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.dealerFilter (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.dealerFilter (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.dealerFilter (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.dealerFilter.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.dealerFilter.filterDealersByActiveStatus.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.filter (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.filter.checkRoleFilterOptions.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.filter.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.filter.filterRolesByActiveStatus.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.filter.filterRolesByInactiveStatus.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddon (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddon (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddon (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddon (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddon (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddon.addAddonWithInvalidData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddon.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddonGroup (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddonGroup (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddonGroup (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeAddAddonGroup.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.negativeLogin.loginWithInvalidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddAddon (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddAddon (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddAddon (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddAddon.addAddon.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddAddon.addAddon2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddAddon.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddAddonGroup (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddDealer (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddDealer (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddDealer (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddDealer (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddDealer.addDealerWithValidData.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveAddDealer.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveLogin (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveLogin (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveLogin (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveLogin.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positiveLogin.loginWithValidCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.positivePackages.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.roleFilter.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.searchRole (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.searchRole (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.searchRole.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.searchRole.searchRole.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.searchRole.searchRoleWithSpecialChar.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Samindya/GIT/GIT-Automation/DemoQA-Automation&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.dealerFilter">
+    <configuration name="dealerFilter (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="superAdminPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="superAdmin.dealerManagement.positive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="superAdmin.dealerManagement.positive" />
+      <option name="MAIN_CLASS_NAME" value="superAdmin.dealerManagement.positive.dealerFilter" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dealerFilter (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="superAdminPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="superAdmin.dealerManagement.positive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="superAdmin.dealerManagement.positive" />
+      <option name="MAIN_CLASS_NAME" value="superAdmin.dealerManagement.positive.dealerFilter" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dealerFilter (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="superAdminPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="superAdmin.dealerManagement.positive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="superAdmin.dealerManagement.positive" />
+      <option name="MAIN_CLASS_NAME" value="superAdmin.dealerManagement.positive.dealerFilter" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dealerFilter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="superAdminPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="superAdmin.dealerManagement.positive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="superAdmin.dealerManagement.positive" />
+      <option name="MAIN_CLASS_NAME" value="superAdmin.dealerManagement.positive.dealerFilter" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dealerFilter.filterDealersByActiveStatus" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="superAdminPortal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="superAdmin.dealerManagement.positive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="superAdmin.dealerManagement.positive" />
+      <option name="MAIN_CLASS_NAME" value="superAdmin.dealerManagement.positive.dealerFilter" />
+      <option name="METHOD_NAME" value="filterDealersByActiveStatus" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.dealerFilter" />
+        <item itemvalue="TestNG.dealerFilter.filterDealersByActiveStatus" />
+        <item itemvalue="TestNG.dealerFilter (1)" />
+        <item itemvalue="TestNG.dealerFilter (3)" />
+        <item itemvalue="TestNG.dealerFilter (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="408901cc-1626-4d60-9604-7bc1467f8cc5" name="Changes" comment="" />
+      <created>1736912908705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736912908705</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/superAdmin/packages/negative/negativeAddAddonGroup.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/superAdmin/userManagement/positive/searchUser.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/superAdmin/userManagement/positive/searchUser.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

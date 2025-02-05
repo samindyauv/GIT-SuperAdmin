@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GIT - Super Admin">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"/>
+    </listeners>
+    <test name="Sprint-01">
+        <classes>
+            <class name="superAdmin.login.positiveLogin"/>
+            <class name="superAdmin.roleManagement.positive.addRole"/>
+            <class name="superAdmin.roleManagement.positive.searchRole"/>
+            <class name="superAdmin.roleManagement.positive.roleFilter"/>
+            <class name="superAdmin.packages.positive.positiveAddAddonGroup"/>
+        </classes>
+    </test>
+</suite>
