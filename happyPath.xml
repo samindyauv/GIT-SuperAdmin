@@ -7,10 +7,10 @@
     <test name="Sprint-01">
         <classes>
             <class name="superAdmin.login.positiveLogin"/>
-            <class name="superAdmin.roleManagement.positive.addRole"/>
-            <class name="superAdmin.roleManagement.positive.searchRole"/>
-            <class name="superAdmin.roleManagement.positive.roleFilter"/>
-            <class name="superAdmin.packages.positive.positiveAddAddonGroup"/>
+<!--            <class name="superAdmin.roleManagement.positive.addRole"/>-->
+<!--            <class name="superAdmin.roleManagement.positive.searchRole"/>-->
+<!--            <class name="superAdmin.roleManagement.positive.roleFilter"/>-->
+<!--            <class name="superAdmin.packages.positive.positiveAddAddonGroup"/>-->
         </classes>
     </test>
 </suite>

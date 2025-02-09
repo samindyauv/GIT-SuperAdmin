@@ -2,20 +2,26 @@ package superAdmin.login;
 
 import jdk.jfr.Name;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+import utils.ExtentReportManager;
 import utils.baseTest;
 
 import java.io.IOException;
 
 public class negativeLogin extends baseTest {
 
+    @BeforeSuite
+    public void setupReport() {
+        String browser = "Chrome"; // Change this dynamically if needed
+        ExtentReportManager.initReport(browser); // Pass the browser name as an argument
+    }
+
     @BeforeMethod
     public void setUp() throws IOException, InterruptedException {
+        ExtentReportManager.startTest("Negative Login Test"); //new
         loadUrl();
         webSteps.click("selectSuperAdmin");
+        ExtentReportManager.logInfo("Navigated to login page and performed invalid login");
     }
 
     @DataProvider(name="loginData")
@@ -69,5 +75,11 @@ public class negativeLogin extends baseTest {
     @AfterMethod
     public void closeBrowser(){
         driver.quit();
+    }
+
+    @AfterSuite
+    public void finalizeReport() {
+        ExtentReportManager.flushReport(); // Ensures the report is generated
+        ExtentReportManager.openReport();  // Opens the report automatically
     }
 }

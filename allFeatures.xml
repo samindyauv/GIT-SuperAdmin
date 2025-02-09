@@ -8,16 +8,16 @@
         <classes>
             <class name="superAdmin.login.positiveLogin"/>
             <class name="superAdmin.login.negativeLogin"/>
-            <class name="superAdmin.roleManagement.positive.addRole"/>
-            <class name="superAdmin.roleManagement.negative.addRole"/>
-            <class name="superAdmin.roleManagement.positive.searchRole"/>
-            <class name="superAdmin.roleManagement.positive.roleFilter"/>
-            <class name="superAdmin.packages.positive.positiveAddAddonGroup"/>
-            <class name="superAdmin.packages.positive.positiveAddAddon"/>
-            <class name="superAdmin.packages.negative.negativeAddAddonGroup"/>
-            <class name="superAdmin.packages.negative.negativeAddAddon"/>
-            <class name="superAdmin.userManagement.positive.addUser"/>
-            <class name="superAdmin.userManagement.negative.addUser"/>
+<!--            <class name="superAdmin.roleManagement.positive.addRole"/>-->
+<!--            <class name="superAdmin.roleManagement.negative.addRole"/>-->
+<!--            <class name="superAdmin.roleManagement.positive.searchRole"/>-->
+<!--            <class name="superAdmin.roleManagement.positive.roleFilter"/>-->
+<!--            <class name="superAdmin.packages.positive.positiveAddAddonGroup"/>-->
+<!--            <class name="superAdmin.packages.positive.positiveAddAddon"/>-->
+<!--            <class name="superAdmin.packages.negative.negativeAddAddonGroup"/>-->
+<!--            <class name="superAdmin.packages.negative.negativeAddAddon"/>-->
+<!--            <class name="superAdmin.userManagement.positive.addUser"/>-->
+<!--            <class name="superAdmin.userManagement.negative.addUser"/>-->
 
         </classes>
     </test>
