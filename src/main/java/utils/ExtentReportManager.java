@@ -32,7 +32,7 @@ public class ExtentReportManager {
             browserName = browser;
             ExtentSparkReporter sparkReporter = new ExtentSparkReporter(REPORT_PATH);
             sparkReporter.config().setDocumentTitle("Automation Test Report");
-            sparkReporter.config().setReportName("Test Execution Report");
+            sparkReporter.config().setReportName("GCEC GIT - Super Admin");
             sparkReporter.config().setTheme(Theme.DARK); // Set Default Dark Mode
 
             extent = new ExtentReports();
@@ -73,6 +73,13 @@ public class ExtentReportManager {
         }
     }
 
+    // Log Fail
+    public static void logFail(String message) {
+        if (test != null) {
+            test.fail(message);
+        }
+    }
+
     // Capture Screenshot for Failed Tests
     public static void captureScreenshot(WebDriver driver, ITestResult result) {
         if (result.getStatus() == ITestResult.FAILURE) {
@@ -81,7 +88,7 @@ public class ExtentReportManager {
                 String screenshotPath = SCREENSHOT_PATH + result.getName() + ".png";
                 FileUtils.copyFile(screenshot, new File(screenshotPath));
 
-                test.fail("Test failed", MediaEntityBuilder.createScreenCaptureFromPath("./screenshots/" + result.getName() + ".png").build());
+                test.fail("🐞 Bug Screenshot", MediaEntityBuilder.createScreenCaptureFromPath("./screenshots/" + result.getName() + ".png").build());
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -100,16 +107,19 @@ public class ExtentReportManager {
             extent.setSystemInfo("Execution End Time", executionEndTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
             extent.setSystemInfo("Total Execution Time", formattedExecutionTime);
             extent.flush();
-            openReport();
+            System.out.println("✅ Extent Report generated successfully at: " + REPORT_PATH);
         }
     }
 
-    // Automatically Open Report After Execution
+    //  Open Extent Report Automatically After Tests
     public static void openReport() {
         try {
             File reportFile = new File(REPORT_PATH);
             if (reportFile.exists()) {
                 Desktop.getDesktop().browse(reportFile.toURI());
+                System.out.println("✅ Extent Report opened successfully!");
+            } else {
+                System.out.println("❌ Extent Report file not found. Ensure tests are running correctly.");
             }
         } catch (IOException e) {
             e.printStackTrace();

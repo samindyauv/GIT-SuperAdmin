@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="408901cc-1626-4d60-9604-7bc1467f8cc5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allFeatures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/allFeatures.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/happyPath.xml" beforeDir="false" afterPath="$PROJECT_DIR$/happyPath.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dataSet.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dataSet.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ExtentReportManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ExtentReportManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/superAdmin/login/negativeLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/superAdmin/login/negativeLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/superAdmin/login/positiveLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/superAdmin/login/positiveLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataSet.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/extent.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ExtentReportManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ExtentReportManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/superAdmin/login/negativeLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/superAdmin/login/negativeLogin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/superAdmin/login/positiveLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/superAdmin/login/positiveLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/extentAdapterReport/extentAdapterHTML.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/screenshots/loginWithValidCredentials.png" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/screenshots/loginWithValidCredentials.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +139,7 @@
     "TestNG.searchRole.searchRoleWithSpecialChar.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Samindya/GIT/GIT-Automation/DemoQA-Automation",
+    "last_opened_file_path": "D:/Samindya/GIT/GIT-Automation/superAdminPortal",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -152,7 +148,7 @@
       <recent name="D:\Samindya\GIT\GIT-Automation\superAdminPortal\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Samindya/GIT/GIT-Automation/superAdminPortal/happyPath.xml">
+  <component name="RunManager" selected="TestNG.D:/Samindya/GIT/GIT-Automation/superAdminPortal/allFeatures.xml">
     <configuration name="D:/Samindya/GIT/GIT-Automation/superAdminPortal/allFeatures.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GIT" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/allFeatures.xml" />
@@ -163,10 +159,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Samindya/GIT/GIT-Automation/superAdminPortal/happyPath.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="positiveLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GIT" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/happyPath.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="superAdmin.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="superAdmin.login" />
+      <option name="MAIN_CLASS_NAME" value="superAdmin.login.positiveLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="positiveLogin (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="GIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="superAdmin.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="superAdmin.login" />
+      <option name="MAIN_CLASS_NAME" value="superAdmin.login.positiveLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -190,7 +210,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="positiveLogin (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="positiveLogin.loginWithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="GIT" />
       <extension name="coverage">
         <pattern>
@@ -200,24 +220,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="superAdmin.login" />
       <option name="MAIN_CLASS_NAME" value="superAdmin.login.positiveLogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="positiveLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="GIT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="superAdmin.login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="superAdmin.login" />
-      <option name="MAIN_CLASS_NAME" value="superAdmin.login.positiveLogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="loginWithValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -226,10 +230,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Samindya/GIT/GIT-Automation/superAdminPortal/happyPath.xml" />
         <item itemvalue="TestNG.D:/Samindya/GIT/GIT-Automation/superAdminPortal/allFeatures.xml" />
-        <item itemvalue="TestNG.positiveLogin" />
-        <item itemvalue="TestNG.positiveLogin (4)" />
+        <item itemvalue="TestNG.positiveLogin (2)" />
+        <item itemvalue="TestNG.positiveLogin (1)" />
+        <item itemvalue="TestNG.positiveLogin.loginWithValidCredentials" />
         <item itemvalue="TestNG.positiveLogin (3)" />
       </list>
     </recent_temporary>
