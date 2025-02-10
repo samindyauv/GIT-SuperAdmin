@@ -18,7 +18,7 @@ public class positiveLogin extends baseTest {
 
     @BeforeMethod
     public void setUp() throws IOException, InterruptedException {
-        ExtentReportManager.startTest("Positive Login Test"); // Start test in Extent Report
+        ExtentReportManager.startTest("Positive Login Test", "Login with valid credentials");
         loadUrl();
         ExtentReportManager.logInfo("📌 Opened the application URL");
 

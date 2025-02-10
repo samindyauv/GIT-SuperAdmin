@@ -19,7 +19,7 @@ public class negativeLogin extends baseTest {
 
     @BeforeMethod
     public void setUp() throws IOException, InterruptedException {
-        ExtentReportManager.startTest("Negative Login Test"); // Start test in Extent Report
+        ExtentReportManager.startTest("Negative Login Test", "Login with invalid credentials");
         loadUrl();
         ExtentReportManager.logInfo("📌 Opened the application URL");
         webSteps.click("selectSuperAdmin");
@@ -93,7 +93,7 @@ public class negativeLogin extends baseTest {
     public void captureFailureAndClose(ITestResult result) {
         if (result.getStatus() == ITestResult.FAILURE) {
             ExtentReportManager.captureScreenshot(driver, result);
-            ExtentReportManager.logFail("❌ Test failed: " + result.getThrowable().getMessage());
+            ExtentReportManager.logFail("❌ Test Failed: " + result.getThrowable().getMessage());
         }
         driver.quit();
     }

@@ -16,24 +16,27 @@ import java.io.IOException;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ExtentReportManager {
     private static ExtentReports extent;
-    private static ExtentTest test;
+    private static final Map<String, ExtentTest> parentTests = new HashMap<>();
+    private static ExtentTest currentTest;
     private static final String REPORT_PATH = "test-output/ExtentReport.html";
     private static final String SCREENSHOT_PATH = "test-output/screenshots/";
     private static LocalDateTime executionStartTime;
     private static LocalDateTime executionEndTime;
     private static String browserName;
 
-    // Initialize Extent Report (Default Navbar, Dark Mode)
+    // Initialize Extent Report
     public static void initReport(String browser) {
         if (extent == null) {
             browserName = browser;
             ExtentSparkReporter sparkReporter = new ExtentSparkReporter(REPORT_PATH);
             sparkReporter.config().setDocumentTitle("Automation Test Report");
             sparkReporter.config().setReportName("GCEC GIT - Super Admin");
-            sparkReporter.config().setTheme(Theme.DARK); // Set Default Dark Mode
+            sparkReporter.config().setTheme(Theme.DARK);
 
             extent = new ExtentReports();
             extent.attachReporter(sparkReporter);
@@ -51,32 +54,37 @@ public class ExtentReportManager {
         }
     }
 
-    // Start a new test
-    public static void startTest(String testName) {
+    // Start a new test under a category
+    public static void startTest(String category, String testName) {
         if (extent == null) {
             throw new IllegalStateException("ExtentReports is not initialized. Call initReport() first.");
         }
-        test = extent.createTest(testName);
+
+        // Create parent test if not exists
+        ExtentTest parentTest = parentTests.computeIfAbsent(category, k -> extent.createTest(category));
+
+        // Create child test inside the category
+        currentTest = parentTest.createNode(testName);
     }
 
     // Log Info
     public static void logInfo(String message) {
-        if (test != null) {
-            test.info(message);
+        if (currentTest != null) {
+            currentTest.info(message);
         }
     }
 
     // Log Pass
     public static void logPass(String message) {
-        if (test != null) {
-            test.pass(message);
+        if (currentTest != null) {
+            currentTest.pass(message);
         }
     }
 
     // Log Fail
     public static void logFail(String message) {
-        if (test != null) {
-            test.fail(message);
+        if (currentTest != null) {
+            currentTest.fail(message);
         }
     }
 
@@ -88,7 +96,7 @@ public class ExtentReportManager {
                 String screenshotPath = SCREENSHOT_PATH + result.getName() + ".png";
                 FileUtils.copyFile(screenshot, new File(screenshotPath));
 
-                test.fail("🐞 Bug Screenshot", MediaEntityBuilder.createScreenCaptureFromPath("./screenshots/" + result.getName() + ".png").build());
+                currentTest.fail("🐞 Bug Screenshot", MediaEntityBuilder.createScreenCaptureFromPath("./screenshots/" + result.getName() + ".png").build());
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -111,7 +119,7 @@ public class ExtentReportManager {
         }
     }
 
-    //  Open Extent Report Automatically After Tests
+    // Open Extent Report Automatically After Tests
     public static void openReport() {
         try {
             File reportFile = new File(REPORT_PATH);
